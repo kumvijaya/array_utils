@@ -8,6 +8,9 @@ This CLI/util can be used to update all the python files (*.py) in the repositor
 This module takes below parameters.
 - content -- content/source code to append. This will be appended in top (Example: 'import os;')
 
+## Get all unit test files
+This CLI/util can be used to all unit test python files (*.py) in the repository.
+
 Refer more details 
 - [glob](https://docs.python.org/3/library/glob.html)
 - [pathlib](https://docs.python.org/3/library/pathlib.html)
