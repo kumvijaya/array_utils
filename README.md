@@ -8,8 +8,18 @@ This [CLI utility/snippet](https://github.com/kumvijaya/file-utils/blob/main/app
 This module takes below parameters.
 - content -- content/source code to append. This will be appended in top (Example: 'import os;')
 
+Usage example:
+```
+python append_to_py_source_files.py --content 'import os;'
+```
+
 ## Get all unit test files
 This [CLI utility//snippet](https://github.com/kumvijaya/file-utils/blob/main/get_all_unit_test_files.py) can be used to all unit test python files (*.py) in the repository.
+
+Usage example:
+```
+python get_all_unit_test_files.py
+```
 
 Refer more details 
 - [glob](https://docs.python.org/3/library/glob.html)
